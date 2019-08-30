@@ -1,0 +1,392 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    h2{
+        font-size: 30px;
+        text-shadow: 0 1px #e0cece;
+    }
+    p{
+        font-size: 14px;
+    }
+    .bar-1{
+        width: 90px;
+        left: 30%;
+    }
+    .bar-3{
+        width: 90px;
+        left: 70%;
+    }
+
+    /*===============sidebar menu start here====================*/
+
+    .sidebar-menu-icon i{
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        padding: 5px;
+        left: 6px;
+    }
+    .sidebar-menu ul li{
+        margin-bottom: 5px;
+    }
+    .sidebar-menu ul li a{
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    .sidebar-menu ul li a:hover{
+        background: #ffd046;
+    }
+    /*===============sidebar menu end here====================*/
+
+    .sidebar-menu-icon i{
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        padding: 5px;
+        left: 6px;
+    }
+    /*===============header section start here====================*/
+    .header{
+        height: 50vh;
+    }
+    .video-body video{
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .header-text{
+
+    }
+    .main-heading{
+        height: 36px;
+    }
+    .header-caption{
+        position: unset;
+        top: unset;
+        left: unset;
+        width: 100%;
+        transform: unset;
+    }
+    .header-caption h4{
+        font-size: 20px;
+    }
+    .header-caption h1{
+        font-size: 30px;
+    }
+    .header-caption p{
+        font-size: 14px;
+    }
+    .header-caption a{
+        margin-top: 0;
+        padding: 2px 10px;
+        font-size: 14px;
+    }
+
+    .header-caption a:hover::before{
+        width: 100%;
+    }
+
+
+
+    /*===============header section end here====================*/
+
+    /*===============about us section start here====================*/
+
+    .about_us{
+        height: auto;
+    }
+    .about_us_content h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .about_us_content_subheader{
+        font-size: 16px;
+    }
+    .about_us_content p{
+        font-size: 14px;
+    }
+
+
+
+    /*===============about us section end here====================*/
+
+    /*===============service section start here====================*/
+    .service-details p{
+        font-size: 14px;
+    }
+    /*===============service section end here====================*/
+    /*===============Menu list section Start here====================*/
+
+    .menu-list{
+        height: auto;
+    }
+    .menu-list-body{}
+    .menu-item{
+        height: 250px;
+    }
+    .menu-item-image{
+        height: 140px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .menu-item-image img{
+        width: 200px !important;
+        display: inline-block !important;
+    }
+    .item-meta h3{
+        font-size: 18px;
+    }
+    .item-button{
+        font-size: 14px;
+        padding: 2px 16px;
+    }
+
+    .menu-item:hover img{
+        transform: scale(1);
+    }
+    #menu-items .owl-nav{
+        bottom: 0;
+    }
+
+
+
+    /*===============Menu list section end here====================*/
+
+    /*===============Our delicious food section start here====================*/
+
+    .our-delicious-food{
+        height: 340vh;
+    }
+    .delicious-food-recipes{
+        text-align: center;
+    }
+
+    .delicious-food-image{
+        display: inline-block;
+    }
+    .delicious-item-image img{
+        height: 200px;
+    }
+    .delicious-food-price p{
+        font-size: 18px;
+
+    }
+    .delicious-food-order-btn{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .delicious-food-recipes:hover .delicious-food-image img{
+        transform: scale(1.1);
+    }
+
+    .recipes-btn-body{
+        top: 380px;
+        bottom: unset;
+    }
+
+    /*===============Our delicious food section end here====================*/
+
+    /*===============Our Blog section Start here====================*/
+    .panel{
+        height: 470px;
+    }
+    .panel_body img{
+        height: 200px;
+    }
+    .panel_footer .footer_header_span{
+        font-size: 20px;
+        font-family: roboto;
+        line-height: 1;
+    }
+
+    /*===============Our Blog section End here====================*/
+
+    /*===============Reservation section Start here====================*/
+    .reservation{
+        height: auto;
+    }
+    .reservation-form-btn{
+        padding: 3px 26px;
+        font-size: 18px;
+    }
+    /*===============Reservation section End here====================*/
+
+    /*===============Footer section Start here====================*/
+
+    .footer{
+        height: auto;
+    }
+    .footer-text h2{
+        font-size: 30px;
+    }
+    .footer-text p{
+        font-size: 14px;
+    }
+    .footer-text a{
+        font-size: 14px;
+    }
+
+    .footer-social{}
+    .footer-social-body{
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .footer-copyright p{
+        font-size: 16px;
+    }
+
+    /*===============Footer section End here====================*/
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    h2{
+        font-size: 35px;
+        text-shadow: 0 2px #e0cece;
+    }
+    p{
+        font-size: 14px;
+    }
+    .bar-1{
+        width: 100px;
+        left: 28%;
+    }
+    .bar-3{
+        width: 100px;
+        left: 72%;
+    }
+
+    /*===============sidebar menu start here====================*/
+
+    .sidebar-menu-icon i{
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        padding: 5px;
+        left: 6px;
+    }
+    .sidebar-menu ul li{
+        margin-bottom: 5px;
+    }
+    .sidebar-menu ul li a{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .sidebar-menu ul li a:hover{
+        background: #ffd046;
+    }
+    /*===============sidebar menu end here====================*/
+
+    /*===============header section start here====================*/
+    .header{
+        height: 70vh;
+    }
+    .header-text{
+
+    }
+    .main-heading{
+        height: 42px;
+    }
+    .header-caption{
+        position: unset;
+        top: unset;
+        left: unset;
+        width: 100%;
+        transform: unset;
+    }
+    .header-caption h4{
+        font-size: 25px;
+    }
+    .header-caption h1{
+        font-size: 40px;
+    }
+    .header-caption p{
+        font-size: 14px;
+        padding: 14px;
+    }
+    .header-caption a{
+        margin-top: 0;
+        padding: 3px 14px;
+        font-size: 14px;
+    }
+
+    .header-caption a:hover::before{
+        width: 100%;
+    }
+
+
+
+    /*===============header section end here====================*/
+
+    /*===============about us section start here====================*/
+
+    .about_us{
+        height: auto;
+    }
+    .about_us_content h3{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .about_us_content_subheader{
+        font-size: 18px;
+    }
+    .about_us_content p{
+        font-size: 14px;
+    }
+
+
+
+    /*===============about us section end here====================*/
+
+    /*===============Menu list section Start here====================*/
+
+    .menu-list{
+        height: auto;
+    }
+    .menu-list-body{}
+    .menu-item{
+        height: 250px;
+    }
+    .menu-item-image{
+        height: 140px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .menu-item-image img{
+        width: 200px !important;
+        display: inline-block !important;
+    }
+    .item-meta h3{
+        font-size: 18px;
+    }
+    .item-button{
+        font-size: 14px;
+        padding: 2px 16px;
+    }
+
+    .menu-item:hover img{
+        transform: scale(1);
+    }
+    #menu-items .owl-nav{
+        bottom: 0;
+        right: -95px;
+    }
+
+
+
+    /*===============Menu list section end here====================*/
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
